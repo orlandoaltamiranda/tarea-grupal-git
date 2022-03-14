@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Te lo vendo - Contactanos</title>
+</head>
+
+<body>
+    <header>
+        <!-- Nueva navbar bootstrap -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">Te lo vendo</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-0 justify-content-center">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Productos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Sucursales</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="estadisticas.html">Estadísticas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="contacto.html">Contactanos</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Buscar producto"
+                            aria-label="Search">
+                        <button class="btn btn-success" type="submit">Buscar</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+
+    <div class="contenido">
+        <h2>Formulario de Contacto</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam eaque quis doloribus sed iste, optio
+            asperiores ratione quasi. Voluptatibus velit distinctio asperiores est perspiciatis atque quia quis eius
+            vero accusantium?</p>
+
+        <div class="container">
+
+            <!-- Formulario con bootstrap        -->
+
+            <form action="#" id="formulario">
+                <div class="mb-3">
+                    <label for="nombre" class="form-label"> Ingrese su nombre:</label>
+                    <input type="text" class="form-control" placeholder="Ingrese su nombre" name="nombre" id="nombre">
+                </div>
+
+                <div class="mb-3">
+                    <label for="direccion" class="form-label"> Ingrese su dirección:</label>
+                    <input type="text" class="form-control" placeholder="Ingrese su dirección" name="direccion"
+                        id="direccion">
+                </div>
+
+                <div class="mb-3">
+                    <label for="correo" class="form-label"> Ingrese su correo electrónico:</label>
+                    <input type="email" class="form-control" placeholder="Ingrese su  correo" name="correo" id="correo">
+                </div>
+
+                <div class="mb-3">
+                    <label for="numero" class="form-label"> Ingrese su número de celular:</label>
+                    <input type="tel" class="form-control" placeholder="Ingrese su número (Mínimo 9 dígitos)" name="numero de celular"
+                        id="numero">
+                </div>
+
+                <div class="mb-3">
+                    <label for="comentario" class="form-label">Ingrese su comentario o consulta</label>
+                    <textarea class="form-control" id="comentario" rows="3" placeholder="Introduzca su comentario (Mínimo 10 caracteres)"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+                <button type="reset" class="btn btn-danger">Limpiar</button>
+
+            </form>
+
+            <!-- final del formulario de boostrap -->
+        </div>
+    </div>
+
+    <hr>
+    <footer>
+        <p> Orlando || Rodrigo || Alan || Gastón || Guillermo </p>
+        <p>Todos los derechos reservados ® - Febrero 2022</p>
+        <a href="https://web.whatsapp.com/"><img class="rrss"
+                src="https://clipground.com/images/whatsapp-icon-transparent-clipart-8.png" alt="logo whatsapp">
+        </a>
+        <a href="https://www.instagram.com/"><img class="rrss"
+                src="https://www.freepngimg.com/thumb/logo/62811-flat-sharing-instagram-icons-computer-design-logo.png"
+                alt="logo instagram"></a>
+        <a href="https://www.facebook.com/"><img class="rrss"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/1200px-Facebook_f_logo_%282019%29.svg.png"
+                alt="logo facebook"></a>.
+
+    </footer>
+
+    <!-- Dependencias de bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
+
+            <!-- JS Personalizado -->
+    <script src="./funciones.js"></script>
+</body>
+
+</html>

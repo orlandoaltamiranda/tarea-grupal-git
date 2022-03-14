@@ -1,0 +1,73 @@
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: grey;
+  color: white;
+}
+
+#banner{
+  background-image: url('https://img.freepik.com/foto-gratis/pantallas-computadora-que-ejecutan-codigo-programacion-oficina-agencia-desarrollo-software-vacio-computadoras-que-analizan-algoritmos-datos-segundo-plano-servidores-red-neuronal-cloud-computing-sala-datos_482257-33353.jpg?w=1380');
+  background-size: cover;
+  background-position: center;
+  padding: 150px 0;
+  text-align: center;
+}
+
+.banner h1 {
+  margin: 0;
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.container >h1 {
+  font-size: 50px;
+}
+
+.banner p {
+  font-size: 20px;
+  color: white;
+  opacity: .7;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
+
+.contenido {
+  text-align: center;
+  margin: 50px;
+  font-size: 17px;
+}
+
+h2 {
+  font-size: 25px;
+}
+
+.card-product {
+  box-shadow: 5px 5px 5px rgb(35, 35, 36);
+  border: 1px solid;
+  padding: 20px;
+}
+
+.img-product > img{
+  height: 200px;
+  border: none;
+}
+
+.card-product:hover {
+  background-color: rgba(0, 140, 239, 1);
+}
+
+footer {
+  text-align: center;
+}
+
+.rrss {
+height: 40px;
+}
+
+
+/* Estilos de Pagina Estadisticas */
+
+table {
+  color: black;
+
+}
