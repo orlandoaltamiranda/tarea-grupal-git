@@ -1,10 +1,10 @@
 body {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  background-color: rgb(255, 0, 0);
-  color: white;
+  background-color: rgb(83, 80, 80);
+  color: rgb(250, 249, 249);
 }
 
-#banner{
+.banner {
   background-image: url('https://img.freepik.com/foto-gratis/pantallas-computadora-que-ejecutan-codigo-programacion-oficina-agencia-desarrollo-software-vacio-computadoras-que-analizan-algoritmos-datos-segundo-plano-servidores-red-neuronal-cloud-computing-sala-datos_482257-33353.jpg?w=1380');
   background-size: cover;
   background-position: center;
@@ -12,26 +12,18 @@ body {
   text-align: center;
 }
 
-.banner h1 {
-  margin: 0;
-  color: white;
-  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
-  font-size: 32px;
-  font-weight: bold;
-}
+.container__titulo{
 
-.container >h1 {
   font-size: 50px;
 }
 
-.banner p {
-  font-size: 20px;
-  color: white;
-  opacity: .7;
-  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
-}
+/* .banner__container >h1 {
+  font-size: 50px;
+} */
 
-.contenido {
+
+
+.container {
   text-align: center;
   margin: 50px;
   font-size: 17px;
