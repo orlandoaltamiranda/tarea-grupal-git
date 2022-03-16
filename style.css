@@ -12,32 +12,29 @@ body {
   text-align: center;
 }
 
-.container__titulo{
+.contain {
+  text-align: center;
+  font-size: 17px;
 
+}
+
+
+.contain__title{
+  text-align: center;
   font-size: 50px;
   font-family: 'Mouse Memoirs', sans-serif;
 }
 
-.container__subtitle{
-
-  font-size: 50px;
-  font-family: 'Hubballi', cursive;
-}
-
-/* .banner__container >h1 {
-  font-size: 50px;
-} */
-
-
-
-.container {
+.contain__subtitle {
   text-align: center;
-  margin: 50px;
-  font-size: 17px;
+  font-size: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
-h2 {
-  font-size: 25px;
+.contain__paragraph {
+  text-align: center;
+  font-size: 17px;
 }
 
 .card-product {
@@ -53,10 +50,6 @@ h2 {
 
 .card-product:hover {
   background-color: rgba(0, 140, 239, 1);
-}
-
-footer {
-  text-align: center;
 }
 
 .rrss {
